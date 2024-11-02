@@ -27,7 +27,7 @@ jobs :
       - name : Check Commit Type
         uses : gsactions/commit-message-checker@v2
         with :
-          pattern : '^(feat|fix|docs|style|refactor|perf|test|chore|build|ci)(.+?)?: .+'
+          pattern : '^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert)(.+?)?: .+'
           flags : 'gm'
           error : 'Your commit title did not follow semantic versioning. Please see https://github.com/IQKV/.github/blob/dev/.github/COMMIT_CONVENTION.md'
       - name : Check Line Length
