@@ -29,7 +29,7 @@ jobs :
         with :
           pattern : '^(feat|fix|docs|style|refactor|perf|test|chore|build|ci)(.+?)?: .+'
           flags : 'gm'
-          error : 'Your commit title did not follow semantic versioning. Please see https://github.com/IQKV/.github/blob/dev/SEMANTIC_COMMITS.md'
+          error : 'Your commit title did not follow semantic versioning. Please see https://github.com/IQKV/.github/blob/dev/.github/COMMIT_CONVENTION.md'
       - name : Check Line Length
         uses : gsactions/commit-message-checker@v2
         with :
