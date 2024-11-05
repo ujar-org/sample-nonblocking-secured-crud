@@ -1,4 +1,4 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.config;
+package com.iqkv.incubator.sample.reactivecrudsecured.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

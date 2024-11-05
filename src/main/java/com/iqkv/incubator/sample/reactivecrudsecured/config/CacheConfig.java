@@ -1,9 +1,9 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.config;
+package com.iqkv.incubator.sample.reactivecrudsecured.config;
 
 import java.time.Duration;
 
 import com.iqkv.boot.cache.CacheProperties;
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
 import org.ehcache.config.builders.CacheConfigurationBuilder;
 import org.ehcache.config.builders.ExpiryPolicyBuilder;
 import org.ehcache.config.builders.ResourcePoolsBuilder;

@@ -1,4 +1,4 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.config;
+package com.iqkv.incubator.sample.reactivecrudsecured.config;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

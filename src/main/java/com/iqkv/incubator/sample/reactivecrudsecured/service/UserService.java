@@ -1,13 +1,13 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.service;
+package com.iqkv.incubator.sample.reactivecrudsecured.service;
 
 import java.util.List;
 import java.util.function.BiFunction;
 
-import com.iqkv.incubator.sample.webfluxcrudsecured.dto.UserDepartmentDTO;
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.Department;
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
-import com.iqkv.incubator.sample.webfluxcrudsecured.repository.DepartmentRepository;
-import com.iqkv.incubator.sample.webfluxcrudsecured.repository.UserRepository;
+import com.iqkv.incubator.sample.reactivecrudsecured.dto.UserDepartmentDTO;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.Department;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.repository.DepartmentRepository;
+import com.iqkv.incubator.sample.reactivecrudsecured.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

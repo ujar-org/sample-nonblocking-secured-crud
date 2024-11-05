@@ -1,4 +1,4 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.config;
+package com.iqkv.incubator.sample.reactivecrudsecured.config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

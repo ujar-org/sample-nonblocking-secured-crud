@@ -1,6 +1,6 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.client;
+package com.iqkv.incubator.sample.reactivecrudsecured.client;
 
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;

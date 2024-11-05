@@ -1,7 +1,7 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.web;
+package com.iqkv.incubator.sample.reactivecrudsecured.web;
 
-import com.iqkv.incubator.sample.webfluxcrudsecured.client.UserClient;
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.client.UserClient;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.http.HttpStatus;

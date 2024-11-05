@@ -1,4 +1,4 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.entity;
+package com.iqkv.incubator.sample.reactivecrudsecured.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

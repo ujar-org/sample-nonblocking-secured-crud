@@ -1,10 +1,10 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.web;
+package com.iqkv.incubator.sample.reactivecrudsecured.web;
 
 import java.util.List;
 
-import com.iqkv.incubator.sample.webfluxcrudsecured.dto.UserDepartmentDTO;
-import com.iqkv.incubator.sample.webfluxcrudsecured.entity.User;
-import com.iqkv.incubator.sample.webfluxcrudsecured.service.UserService;
+import com.iqkv.incubator.sample.reactivecrudsecured.dto.UserDepartmentDTO;
+import com.iqkv.incubator.sample.reactivecrudsecured.entity.User;
+import com.iqkv.incubator.sample.reactivecrudsecured.service.UserService;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.http.HttpStatus;

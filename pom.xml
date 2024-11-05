@@ -46,7 +46,7 @@
         <springfox.version>2.10.5</springfox.version>
         <checkstyle.skip>false</checkstyle.skip>
         <maven.gitcommitid.skip>false</maven.gitcommitid.skip>
-        <start-class>com.iqkv.incubator.sample.webfluxcrudsecured.WebfluxCrudSecuredApplication</start-class>
+        <start-class>com.iqkv.incubator.sample.reactivecrudsecured.ReactiveCrudSecuredApplication</start-class>
     </properties>
 
     <dependencyManagement>

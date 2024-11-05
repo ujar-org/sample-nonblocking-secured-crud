@@ -1,4 +1,4 @@
-package com.iqkv.incubator.sample.webfluxcrudsecured.dto;
+package com.iqkv.incubator.sample.reactivecrudsecured.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
