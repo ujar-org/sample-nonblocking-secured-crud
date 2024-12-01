@@ -139,7 +139,7 @@ management :
       enabled : true
 
 iqkv :
-  build :
+  info :
     description : '@project.description@'
     relative-path : ${SERVER_SERVLET_CONTEXT_PATH:/}
     version : '@project.version@'

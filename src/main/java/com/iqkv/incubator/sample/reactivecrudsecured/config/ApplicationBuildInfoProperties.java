@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotNull;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("iqkv.build")
+@ConfigurationProperties("iqkv.info")
 public record ApplicationBuildInfoProperties(@NotNull String version,
                                              @NotNull String description,
                                              @NotNull String relativePath) {
