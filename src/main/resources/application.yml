@@ -104,19 +104,6 @@ management :
         http :
           server :
             requests : true
-  tracing :
-    sampling :
-      probability : 1.0
-    enabled : true
-  prometheus :
-    metrics :
-      export :
-        step : 20s
-        enabled : true
-  zipkin :
-    tracing :
-      endpoint : ${TEMPO_URL:http://localhost:9411/api/v2/spans}
-
 
   endpoints :
     enabled-by-default : false
