@@ -5,22 +5,6 @@
 
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
 
-    <appender name="LOKI" class="com.github.loki4j.logback.Loki4jAppender">
-        <batchTimeoutMs>10000</batchTimeoutMs>
-        <http>
-            <url>${LOKI_URL:-http://localhost:3100/loki/api/v1/push}</url>
-        </http>
-        <format>
-            <label>
-                <pattern>application=${application_name},level=%level,host=${HOSTNAME},runtimeEnv=${SVC_POD_NAMESPACE},traceID=%X{traceId:-NONE}</pattern>
-            </label>
-            <message>
-                <pattern>{"message": "%msg", "logger": "%logger{20}", "thread": "%thread", "traceID": "%X{traceId:-NONE}"}</pattern>
-            </message>
-            <sortByTime>true</sortByTime>
-        </format>
-    </appender>
-
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>${application_name} %clr(%d{yyyy-MM-dd HH:mm:ss.SSS}) %clr([%thread]){blue} %clr(%-5level) %clr(%logger{36}){magenta} - %msg%n</pattern>
