@@ -3,10 +3,10 @@
 
 version : 2
 updates :
-  - package-ecosystem : "maven"
+  - package-ecosystem : 'maven'
     directory : "/" # Location of package manifests
     schedule :
-      interval : "monthly"
+      interval : 'monthly'
   - package-ecosystem : 'npm'
     directory : '/'
     schedule :
