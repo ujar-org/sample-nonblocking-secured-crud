@@ -207,7 +207,7 @@
             </dependencies>
         </profile>
         <profile>
-            <id>testcontainers-support</id>
+            <id>use-testcontainers</id>
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>

@@ -75,7 +75,7 @@ quality is measured by:
 This project has standard JUnit tests. To run them execute this command:
 
 ```text
-./mvnw verify -P testcontainers-support
+./mvnw verify -P use-testcontainers
 ```
 
 ## Versioning
