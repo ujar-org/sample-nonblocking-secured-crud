@@ -10,9 +10,9 @@ java 21, Spring Boot, Webflux, Postgres, Flyway, Springfox
 
 The following items should be installed in your system:
 
-* java 21 or newer.
-* git command line tool (https://help.github.com/articles/set-up-git)
-* Your preferred IDE (IDEA preferably)
+- java 21 or newer.
+- git command line tool (https://help.github.com/articles/set-up-git)
+- Your preferred IDE (IDEA preferably)
 
 ## Database configuration
 
@@ -43,20 +43,20 @@ Now you can access to the Swagger UI here: http://localhost:8080/swagger-ui.html
 
 ### Working with Application in your IDE
 
-1) On the command line
+1. On the command line
 
 ```
 git clone https://github.com/KnowHowSpringBoot/sample-reactive-crud-secured.git
 ```
 
-2) Inside IDE
+2. Inside IDE
 
 In the main menu, choose `File -> Open` and select the Application [pom.xml](pom.xml). Click on the `Open` button.
 Activate "local" profile in the Run settings or set it via environment
 variables. [instruction](https://stackoverflow.com/questions/38520638/how-to-set-spring-profile-from-system-variable)
 Wait to indexing completion and push the green "play" button.
 
-3) Navigate to Swagger UI
+3. Navigate to Swagger UI
 
 Visit [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) in your browser.
 
@@ -89,4 +89,4 @@ YY.MM.MICRO
 
 1. **YY** - short year - 6, 16, 106
 1. **MM** - short month - 1, 2 ... 11, 12
-1. **MICRO** -  "patch" segment
+1. **MICRO** - "patch" segment
