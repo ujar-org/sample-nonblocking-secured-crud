@@ -1,4 +1,4 @@
-# User Departments - Reactive app
+# 🚀 User Departments - Reactive app
 
 Minimal Spring Boot based reactive CRUD example, which manages user entity (including Swagger UI).
 
