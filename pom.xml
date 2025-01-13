@@ -224,6 +224,20 @@
                 </dependency>
             </dependencies>
         </profile>
+        <profile>
+            <id>use-qulice</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.qulice</groupId>
+                        <artifactId>qulice-maven-plugin</artifactId>
+                        <configuration>
+                            <license>file:${basedir}/LICENSE</license>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
 
     <build>
