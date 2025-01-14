@@ -20,6 +20,8 @@ if [[ ! $1 =~ $valid_commit ]]; then
     exit 1
 fi
 
+npx --no -- commitlint --edit "${1}"
+
 ./mvnw clean validate
 if [ "$?" -ne 0 ]; then
     echo -e "\033[1;31m[ERROR] Maven Validate unsuccessful.\033[0m"
