@@ -7,7 +7,7 @@
 Messages must match the following regex:
 
 ```js
-/^(revert: )?(feat|fix|docs|style|refactor|test|ci|chore)(\(.+\))?: .{1,120}/;
+/^(revert: )?(feat|fix|rfc|docs|style|refactor|test|ci|chore)(\(.+\))?: .{1,120}/;
 ```
 
 #### Types

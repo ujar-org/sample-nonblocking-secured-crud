@@ -8,13 +8,13 @@ if [[ $current_branch =~ $main_branch ]]; then
     exit 1
 fi
 
-valid_branch_names="^(feature|bugfix|improvement|library|prerelease|hotfix)\/[a-z0-9._-]+$"
+valid_branch_names="^(feature|rfc|bugfix|improvement|library|prerelease|hotfix)\/[a-z0-9._-]+$"
 if [[ ! $current_branch =~ $valid_branch_names ]]; then
     echo -e "\033[1;31m[ERROR] Your branch name is illegal. Please rename your branch with using following regex: $valid_branch_names\033[0m"
     exit 1
 fi
 
-valid_commit="^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert)(.+?)?: .+"
+valid_commit="^(feat|fix|rfc|docs|style|refactor|perf|test|chore|build|ci|revert)(.+?)?: .+"
 if [[ ! $1 =~ $valid_commit ]]; then
    echo -e "\033[1;31m[ERROR] Your commit title did not follow semantic versioning.\033[0m"
     exit 1
