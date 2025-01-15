@@ -10,10 +10,6 @@ dist/
 .prettierrc.cjs
 tsconfig.json
 
-*.yml
-*.yaml
-
-
 # TypeScript cache
 *.tsbuildinfo
 

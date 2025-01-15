@@ -1,19 +1,19 @@
-name : 'Commit PR Title'
+name: "Commit PR Title"
 
-on :
-  pull_request :
-    types : [ opened, edited, synchronize, reopened ]
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
 
-jobs :
-  check-pr-title :
-    name : Check PR Title
-    runs-on : ubuntu-latest
-    steps :
-      - uses : deepakputhraya/action-pr-title@master
-        with :
-          regex : '^(feat|fix|rfc|docs|style|refactor|perf|test|chore|build|ci|revert)(.+?)?: .+'
-          allowed_prefixes : 'feat,fix,rfc,docs,style,refactor,perf,test,chore,build,ci,revert'
-          prefix_case_sensitive : true
-          min_length : 6
-          max_length : 220
-          github_token : ${{ github.token }} # Default: ${{ github.token }}
+jobs:
+  check-pr-title:
+    name: "Check PR Title"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: deepakputhraya/action-pr-title@master
+        with:
+          regex: "^(feat|fix|rfc|docs|style|refactor|perf|test|chore|build|ci|revert)(.+?)?: .+"
+          allowed_prefixes: "feat,fix,rfc,docs,style,refactor,perf,test,chore,build,ci,revert"
+          prefix_case_sensitive: true
+          min_length: 6
+          max_length: 220
+          github_token: ${{ github.token }}
