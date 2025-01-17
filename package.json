@@ -28,7 +28,7 @@
     "lint-staged": "^15.3.0",
     "prettier": "3.4.2",
     "prettier-plugin-java": "2.6.6",
-    "prettier-plugin-packagejson": "2.5.7",
+    "prettier-plugin-packagejson": "2.5.8",
     "semantic-release": "^24.1.2",
     "sort-package-json": "^2.10.1",
     "stylelint": "^16.2.1",
