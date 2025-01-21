@@ -1,7 +1,7 @@
 version: "3"
 services:
   postgres:
-    image: "postgres:16.4"
+    image: "postgres:16.6"
     container_name: webflux-crud-secured-postgres
     restart: unless-stopped
     ports:
@@ -12,7 +12,7 @@ services:
       - POSTGRES_DB=svc_testing_db
   prometheus:
     container_name: webflux-crud-secured-prometheus
-    image: prom/prometheus:v2.54.1
+    image: prom/prometheus:v3.1.0
     volumes:
       - ./src/main/docker/prometheus/:/etc/prometheus/
     command:
@@ -22,7 +22,7 @@ services:
     network_mode: "host" # to test locally running service
   grafana:
     container_name: webflux-crud-secured-grafana
-    image: grafana/grafana:11.2.2
+    image: grafana/grafana:11.4.0
     volumes:
       - ./src/main/docker/grafana/provisioning/:/etc/grafana/provisioning/
     environment:
