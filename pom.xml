@@ -5,7 +5,7 @@
 
     <groupId>com.iqkv.incubator.sample</groupId>
     <artifactId>sample-reactive-crud-secured</artifactId>
-    <version>24.0.0-SNAPSHOT</version>
+    <version>25.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>reactive-crud-secured</name>
@@ -34,7 +34,7 @@
     <parent>
         <groupId>com.iqkv.boot</groupId>
         <artifactId>boot-parent-pom</artifactId>
-        <version>24.0.0-SNAPSHOT</version>
+        <version>25.0.0-SNAPSHOT</version>
     </parent>
 
     <properties>

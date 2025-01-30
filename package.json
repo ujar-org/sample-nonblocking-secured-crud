@@ -1,6 +1,6 @@
 {
   "name": "@know-how-spring-boot/sample-reactive-crud-secured",
-  "version": "24.0.0",
+  "version": "25.0.0",
   "description": "Provide an optional Git commit hooks.",
   "private": true,
   "scripts": {
