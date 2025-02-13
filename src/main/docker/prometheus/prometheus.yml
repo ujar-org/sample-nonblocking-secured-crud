@@ -1,4 +1,4 @@
-# Sample global config for monitoring KnowHowSpringBoot applications
+# Sample global config for monitoring IQKV applications
 global :
   scrape_interval : 15s # By default, scrape targets every 15 seconds.
   evaluation_interval : 15s # By default, scrape targets every 15 seconds.
