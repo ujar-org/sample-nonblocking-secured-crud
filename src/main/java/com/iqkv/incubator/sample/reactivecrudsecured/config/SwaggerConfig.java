@@ -31,7 +31,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 class SwaggerConfig {
 
   @Bean
-  Docket springfoxSwaggerApiDocket(ApplicationBuildInfoProperties buildInfo) {
+  Docket springfoxSwaggerApiDocket(ApplicationInfoProperties buildInfo) {
     return new Docket(DocumentationType.SWAGGER_2)
         .apiInfo(apiInfo())
         .select()

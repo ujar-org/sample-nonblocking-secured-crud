@@ -37,7 +37,7 @@ spring :
       hibernate.generate_statistics : false
     show-sql : false
 
-iqkv :
+application-settings :
   info :
     description : '@project.description@'
     relative-path : '/'

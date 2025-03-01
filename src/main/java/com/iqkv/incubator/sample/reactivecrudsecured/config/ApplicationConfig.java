@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableConfigurationProperties({ApplicationBuildInfoProperties.class, JwtTokenProperties.class})
+@EnableConfigurationProperties({ApplicationInfoProperties.class, JwtTokenProperties.class})
 class ApplicationConfig {
 
 }

@@ -20,8 +20,8 @@ import jakarta.validation.constraints.NotNull;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("iqkv.info")
-public record ApplicationBuildInfoProperties(@NotNull String version,
+@ConfigurationProperties("application-settings.info")
+public record ApplicationInfoProperties(@NotNull String version,
                                              @NotNull String description,
                                              @NotNull String relativePath) {
 
